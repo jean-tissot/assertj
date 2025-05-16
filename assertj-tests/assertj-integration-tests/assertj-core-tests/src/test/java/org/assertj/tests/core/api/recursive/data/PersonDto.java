@@ -34,6 +34,6 @@ public class PersonDto {
 
   @Override
   public String toString() {
-    return "PersonDto [name=" + name + ", home=" + home + "]";
+    return "PersonDto [dateOfBirth=%s, name=%s, phone=%s, home=%s]".formatted(dateOfBirth, name, phone, home);
   }
 }
